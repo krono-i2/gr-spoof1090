@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_e100f94bb4cfaca87ef1f2056f309cc0" kind="dir">
+    <compoundname>bindings</compoundname>
+    <innerfile refid="build_2python_2spoof1090_2bindings_2pydoc__macros_8h">build/python/spoof1090/bindings/pydoc_macros.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/krono/workspace/gnuradio-oot/src/gr-spoof1090/build/python/spoof1090/bindings/"/>
+  </compounddef>
+</doxygen>

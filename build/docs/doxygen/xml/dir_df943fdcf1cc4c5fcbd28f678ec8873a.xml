@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_df943fdcf1cc4c5fcbd28f678ec8873a" kind="dir">
+    <compoundname>spoof1090</compoundname>
+    <innerdir refid="dir_4212f6bc3f0d9ba4e3874274cd62c04e">bindings</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/krono/workspace/gnuradio-oot/src/gr-spoof1090/python/spoof1090/"/>
+  </compounddef>
+</doxygen>
