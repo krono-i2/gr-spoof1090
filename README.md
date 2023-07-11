@@ -9,6 +9,37 @@ Spoof 1090 is composed by two sub-modules:
 * the ADS-B encoder: a C++ tool aimed at providing the ADS-B payload based on the state of the aircraft (i.e., ICAO name, position);
 * the ADS-B modulator: a GNU Radio block aimed at providing the modulated burst to be transmitted.
 
+## Getting Started
+
+### Dependencies
+
+The following procedure has been tested on Ubuntu 22.04.2, but it can work on other linux distributions with modifications of dependencies.
+
+* gnuradio
+* gnuradio-dev
+* cmake
+* libspdlog-dev
+* clang-format
+
+### Installing
+
+In order to install the GNU Radio OOT module run the following commands:
+
+```
+$ mkdir build
+$ cd build
+$ cmake ../
+$ make
+$ sudo make install
+```
+
+In `examples/ads_b_gateway` you can find a simple ADS-B encoder code; it can be compiled running the following commands:
+
+```
+$ g++ -c *.cpp
+$ g++ *.o -o ads_b_gateway -lgnuradio-pmt -lzmq
+```
+
 ## Acknowledgments
 
 This project has been developed within the collaboration between the Safty and Security department of the [Italian Aerospace Research Centre (CIRA)](https://www.cira.it/en) and the [SPRINT](https://sprint.dieti.unina.it/index.php/en) research group.
