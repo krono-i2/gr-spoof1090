@@ -1,3 +1,6 @@
+
+[![DOI](https://zenodo.org/badge/662674029.svg)](https://zenodo.org/badge/latestdoi/662674029)
+
 # Spoof1090
 
 Spoof 1090 is a ADS-B transmitter specifically designed for GNU Radio implementations.
