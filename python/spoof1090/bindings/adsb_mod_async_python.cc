@@ -14,7 +14,7 @@
 /* BINDTOOL_GEN_AUTOMATIC(0)                                                       */
 /* BINDTOOL_USE_PYGCCXML(0)                                                        */
 /* BINDTOOL_HEADER_FILE(adsb_mod_async.h)                                        */
-/* BINDTOOL_HEADER_FILE_HASH(e3345739e3150eac7ad0625ce805e9fc)                     */
+/* BINDTOOL_HEADER_FILE_HASH(f70285143a28e3056f62e85e87e322e4)                     */
 /***********************************************************************************/
 
 #include <pybind11/complex.h>
@@ -30,10 +30,10 @@ namespace py = pybind11;
 void bind_adsb_mod_async(py::module& m)
 {
 
-    using adsb_mod_async    = gr::spoof1090::adsb_mod_async;
+    using adsb_mod_async    = ::gr::spoof1090::adsb_mod_async;
 
 
-    py::class_<adsb_mod_async, gr::sync_block, gr::block, gr::basic_block,
+    py::class_<adsb_mod_async, gr::block, gr::basic_block,
         std::shared_ptr<adsb_mod_async>>(m, "adsb_mod_async", D(adsb_mod_async))
 
         .def(py::init(&adsb_mod_async::make),
