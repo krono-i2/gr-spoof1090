@@ -23,6 +23,7 @@ The following procedure has been tested on Ubuntu 22.04.2, but it can work on ot
 * cmake
 * libspdlog-dev
 * clang-format
+* libzmq3-dev
 
 ### Installing
 
