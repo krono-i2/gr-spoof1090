@@ -25,7 +25,7 @@ adsb_mod_async::sptr adsb_mod_async::make()
  * The private constructor
  */
 adsb_mod_async_impl::adsb_mod_async_impl()
-    : gr::sync_block("adsb_mod_async",
+    : gr::block("adsb_mod_async",
                      gr::io_signature::make(0, 0, 0),
                      gr::io_signature::make(0, 0, 0))
 {
