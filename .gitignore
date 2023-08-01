@@ -1,0 +1,4 @@
+build
+examples/test.py
+examples/ads_b_gateway/*.o
+examples/ads_b_gateway/ads_b_gateway
