@@ -19,7 +19,7 @@ namespace spoof1090 {
  * \ingroup spoof1090
  *
  */
-class SPOOF1090_API adsb_mod_async : virtual public gr::sync_block
+class SPOOF1090_API adsb_mod_async : virtual public gr::block
 {
 public:
     typedef std::shared_ptr<adsb_mod_async> sptr;
